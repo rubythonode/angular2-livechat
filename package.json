@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wkwiatek/angular2-livechat.git"
+    "url": "git+https://github.com/livechat/angular2-livechat.git"
   },
   "keywords": [
     "angular2",
@@ -23,9 +23,9 @@
   "author": "Wojciech Kwiatek <wojtek.kwiatek@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wkwiatek/angular2-livechat/issues"
+    "url": "https://github.com/livechat/angular2-livechat/issues"
   },
-  "homepage": "https://github.com/wkwiatek/angular2-livechat#readme",
+  "homepage": "https://github.com/livechat/angular2-livechat#readme",
   "devDependencies": {
     "angular2": "2.0.0-beta.9",
     "es6-promise": "^3.0.2",
