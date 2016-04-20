@@ -14,7 +14,7 @@ import {LiveChat} from 'angular2-livechat';
   selector: 'app',
   template: `
     <livechat
-      license="001"        
+      [license]="007"        
     ></livechat>
   `,
   directives: [LiveChat]  

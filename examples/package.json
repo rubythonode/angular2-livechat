@@ -4,23 +4,24 @@
   "description": "LiveChat component for Angular2",
   "scripts": {
     "postinstall": "typings install",
-    "start": "webpack-dev-server --inline --colors --display-error-details --open --content-base src"
+    "copy-lib": "cp -R ../src ./src/lib",
+    "start": "npm run copy-lib && webpack-dev-server --open --content-base src"
   },
   "author": "Wojciech Kwiatek <wojtek.kwiatek@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "json-loader": "^0.5.4",
     "ts-loader": "^0.8.1",
     "typescript": "^1.7.5",
-    "typings": "^0.7.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "typings": "^0.8.1",
+    "webpack": "^2.1.0-beta.5",
+    "webpack-dev-server": "^2.0.0-beta"
   },
   "dependencies": {
-    "angular2": "2.0.0-beta.9",
-    "es6-promise": "^3.0.2",
-    "es6-shim": "^0.33.3",
+    "angular2": "2.0.0-beta.15",
+    "es6-shim": "^0.35.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.5.15"
+    "zone.js": "^0.6.12"
   }
 }

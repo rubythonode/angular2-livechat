@@ -1,7 +1,8 @@
 export interface IWindow extends Window {
   __lc: {
-    license?: number;
     hostname?: string;
     chat_absolute_url?: string;
+    license?: number;
+    lc4?: boolean;
   }
 }

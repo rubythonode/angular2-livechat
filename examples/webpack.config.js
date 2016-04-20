@@ -5,11 +5,12 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['', '.ts', '.js']
+    extensions: ['', '.ts', '.js'],
   },
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'ts' }
+      { test: /\.ts$/, loader: 'ts' },
+      { test: /\.json$/, loader: 'json' }
     ]
   }
 };
