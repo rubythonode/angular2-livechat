@@ -1,6 +1,6 @@
 {
   "name": "angular2-livechat",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "LiveChat component for Angular2",
   "main": "./lib/livechat.js",
   "files": [
