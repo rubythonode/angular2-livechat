@@ -4,5 +4,6 @@ export interface IWindow extends Window {
     chat_absolute_url?: string;
     license?: number;
     lc4?: boolean;
-  }
+  };
+  LC_tasks: any[];
 }

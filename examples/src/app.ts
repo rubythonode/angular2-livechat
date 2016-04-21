@@ -19,6 +19,7 @@ import {LiveChat} from './lib/livechat';
   template: `
     <livechat
       [license]="007"
+      [entityDetails]="{ name: 'John' }"
     ></livechat>
   `
 })
