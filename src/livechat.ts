@@ -7,9 +7,9 @@ import {IWindow} from './window.interface';
 })
 export class LiveChat {
   @Input() public license: number;
-  @Input() public lc4: boolean = true;
-  @Input() public hostname: string = 'secure-labs.livechatinc.com';
-  @Input() public chatAbsoluteUrl: string = 'https://lc4.labs.livechatinc.com/open_chat.html';
+  private lc4: boolean = true;
+  private hostname: string = 'secure-lc.livechatinc.com';
+  private chatAbsoluteUrl: string = 'https://source.livechatinc.com/lc4/open_chat.html';
 
   private window: IWindow = <IWindow>window;
 
@@ -22,7 +22,7 @@ export class LiveChat {
 
     (function() {
       var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'lc4.labs.livechatinc.com/tracking.js';
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'source.livechatinc.com/lc4/tracking.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
     })();
   }

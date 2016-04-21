@@ -19,7 +19,6 @@ import {LiveChat} from './lib/livechat';
   template: `
     <livechat
       [license]="007"
-      [lc4]="true"
     ></livechat>
   `
 })
