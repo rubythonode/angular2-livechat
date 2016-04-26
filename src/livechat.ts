@@ -11,7 +11,7 @@ export class LiveChat {
 
   private lc4: boolean = true;
   private hostname: string = 'secure-lc.livechatinc.com';
-  private chatAbsoluteUrl: string = 'https://cdn.livechatinc.com/lc4/open_chat.html';
+  private chatAbsoluteUrl: string = 'https://source.livechatinc.com/lc4/open_chat.html';
 
   private window: IWindow = <IWindow>window;
 
@@ -27,7 +27,7 @@ export class LiveChat {
 
     (() => {
       const lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-      lc.src = `${('https:' === document.location.protocol ? 'https://' : 'http://')}source.livechatinc.com/lc4/tracking.js`;
+      lc.src = `${('https:' === document.location.protocol ? 'https://' : 'http://')}cdn.livechatinc.com/lc4/tracking.js`;
       const s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
     })();
   }
