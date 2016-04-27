@@ -11,7 +11,7 @@ export class LiveChat {
 
   private lc4: boolean = true;
   private hostname: string = 'secure-lc.livechatinc.com';
-  private chatAbsoluteUrl: string = 'https://source.livechatinc.com/lc4/open_chat.html';
+  private chatAbsoluteUrl: string = 'https://cdn.livechatinc.com/lc4/open_chat.html';
 
   private window: IWindow = <IWindow>window;
 
